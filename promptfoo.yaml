@@ -3,7 +3,7 @@ description: "TDS Virtual TA Project Sample (but not the actual evaluation) Ques
 providers:
   - id: https
     config:
-      url: http://localhost:8000/query
+      url: https://tds-project-bot.onrender.com/query
       method: POST
       headers:
         Content-Type: application/json
